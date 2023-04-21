@@ -1,0 +1,41 @@
+// asyncrounous programming.
+
+// setTimeout(()=>{console.log("this is last line"),1 });
+// console.log("this is the first example.");
+// console.log("this is the second line");
+// console.log("this is the third line.");
+
+// // setTimeout() function is a asyncronous function.
+
+// // regular way to write function:-  function abc(1,2,3){}
+
+// // arrow function method :-  let abc = (1,2,3) =>{}
+
+
+//----------------------------------------------------------===========
+
+
+// callbacks from here:::::
+ 
+// function one(){
+//     console.log("step 1");
+// }
+
+// function two(){
+//     console.log("step 2");
+// }
+
+// // now using callback function
+
+// function oneCallback(call_two){
+//     console.log("This is callback test callback text will print here.");
+//     call_two();
+// }
+
+// oneCallback(one);
+// oneCallback(two);
+
+// //call back ends here.
+
+//------------=================----------------================
+//======================---------------=========================
